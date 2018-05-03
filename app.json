@@ -1,4 +1,12 @@
 {
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/php"
+    }
+  ],
   "env": {
     "CFP_ENV": {
       "description": "The opencfp environment.",
