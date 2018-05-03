@@ -10,7 +10,7 @@
   "env": {
     "CFP_ENV": {
       "description": "The opencfp environment.",
-      "value": "production"
+      "value": "development"
     }
   }
 }
