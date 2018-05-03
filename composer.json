@@ -74,5 +74,11 @@
         "files": [
             "tests/helpers.php"
         ]
+    },
+    "scripts": {
+        "compile": [
+            "mkdir -p web/uploads cache/production log",
+            "chmod -R 777 web/uploads cache/production log"
+        ]
     }
 }
